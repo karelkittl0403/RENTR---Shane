@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D41379A1FEF8FFCF03AE55 /* libPods-RENTR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDA576E3E836E24FDFC6D15 /* libPods-RENTR.a */; };
+		D638F2231CB3C4480050ED3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D638F2221CB3C4480050ED3A /* Foundation.framework */; };
+		D638F2251CB3C4480050ED3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D638F2241CB3C4480050ED3A /* CoreGraphics.framework */; };
+		D638F2271CB3C4480050ED3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D638F2261CB3C4480050ED3A /* UIKit.framework */; };
+		D638F22D1CB3C4480050ED3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D638F22B1CB3C4480050ED3A /* InfoPlist.strings */; };
+		D638F22F1CB3C4480050ED3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D638F22E1CB3C4480050ED3A /* main.m */; };
+		D638F2331CB3C4480050ED3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D638F2321CB3C4480050ED3A /* AppDelegate.m */; };
+		D638F2361CB3C4480050ED3A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638F2341CB3C4480050ED3A /* Main_iPhone.storyboard */; };
+		D638F2391CB3C4480050ED3A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638F2371CB3C4480050ED3A /* Main_iPad.storyboard */; };
+		D638F23E1CB3C4480050ED3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D638F23D1CB3C4480050ED3A /* Images.xcassets */; };
+		D658B71C1CB463C4009A4685 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D658B71B1CB463C4009A4685 /* Launch Screen.storyboard */; };
+		D658B71F1CB467A2009A4685 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B71E1CB467A2009A4685 /* SignUpViewController.m */; };
+		D658B7221CB46B05009A4685 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B7211CB46B05009A4685 /* HomeViewController.m */; };
+		D658B7251CB4B91F009A4685 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B7241CB4B91F009A4685 /* LoginViewController.m */; };
+		D658B7271CB4BCA9009A4685 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D658B7261CB4BCA9009A4685 /* btn_back.png */; };
+		D658B7321CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B72B1CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.m */; };
+		D658B7331CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B72D1CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.m */; };
+		D658B7341CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B72F1CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.m */; };
+		D658B7351CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D658B7311CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		D6BBE0621CB44D3A0062F7E3 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0611CB44D3A0062F7E3 /* Avenir.ttc */; };
+		D6BBE06A1CB4555E0062F7E3 /* barbtn_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0641CB4555E0062F7E3 /* barbtn_setting.png */; };
+		D6BBE06B1CB4555E0062F7E3 /* btn_call.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0651CB4555E0062F7E3 /* btn_call.png */; };
+		D6BBE06C1CB4555E0062F7E3 /* btn_comment.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0661CB4555E0062F7E3 /* btn_comment.png */; };
+		D6BBE06D1CB4555E0062F7E3 /* btn_email.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0671CB4555E0062F7E3 /* btn_email.png */; };
+		D6BBE06E1CB4555E0062F7E3 /* img_mainProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0681CB4555E0062F7E3 /* img_mainProfile.png */; };
+		D6BBE06F1CB4555E0062F7E3 /* img_secondProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0691CB4555E0062F7E3 /* img_secondProfile.png */; };
+		D6BBE0711CB458A60062F7E3 /* img_inputField.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BBE0701CB458A60062F7E3 /* img_inputField.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		988333C916644F3BDC88BCD6 /* Pods-RENTR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RENTR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RENTR/Pods-RENTR.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDA576E3E836E24FDFC6D15 /* libPods-RENTR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RENTR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E366CD1741B706916D435F /* Pods-RENTR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RENTR.release.xcconfig"; path = "Pods/Target Support Files/Pods-RENTR/Pods-RENTR.release.xcconfig"; sourceTree = "<group>"; };
+		D638F21F1CB3C4480050ED3A /* RENTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RENTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638F2221CB3C4480050ED3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D638F2241CB3C4480050ED3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D638F2261CB3C4480050ED3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D638F22A1CB3C4480050ED3A /* RENTR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RENTR-Info.plist"; sourceTree = "<group>"; };
+		D638F22C1CB3C4480050ED3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D638F22E1CB3C4480050ED3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D638F2301CB3C4480050ED3A /* RENTR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RENTR-Prefix.pch"; sourceTree = "<group>"; };
+		D638F2311CB3C4480050ED3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D638F2321CB3C4480050ED3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D638F2351CB3C4480050ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D638F2381CB3C4480050ED3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D638F23D1CB3C4480050ED3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D638F2441CB3C4480050ED3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D638F24C1CB3C4480050ED3A /* RENTRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RENTRTests-Info.plist"; sourceTree = "<group>"; };
+		D638F24E1CB3C4480050ED3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D638F2501CB3C4480050ED3A /* RENTRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RENTRTests.m; sourceTree = "<group>"; };
+		D658B71B1CB463C4009A4685 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D658B71D1CB467A2009A4685 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D658B71E1CB467A2009A4685 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D658B7201CB46B05009A4685 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D658B7211CB46B05009A4685 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D658B7231CB4B91F009A4685 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D658B7241CB4B91F009A4685 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D658B7261CB4BCA9009A4685 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		D658B72A1CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		D658B72B1CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		D658B72C1CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		D658B72D1CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		D658B72E1CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		D658B72F1CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		D658B7301CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		D658B7311CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		D658B7361CB4D4FE009A4685 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D6BBE0611CB44D3A0062F7E3 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		D6BBE0641CB4555E0062F7E3 /* barbtn_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbtn_setting.png; sourceTree = "<group>"; };
+		D6BBE0651CB4555E0062F7E3 /* btn_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_call.png; sourceTree = "<group>"; };
+		D6BBE0661CB4555E0062F7E3 /* btn_comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_comment.png; sourceTree = "<group>"; };
+		D6BBE0671CB4555E0062F7E3 /* btn_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_email.png; sourceTree = "<group>"; };
+		D6BBE0681CB4555E0062F7E3 /* img_mainProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mainProfile.png; sourceTree = "<group>"; };
+		D6BBE0691CB4555E0062F7E3 /* img_secondProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_secondProfile.png; sourceTree = "<group>"; };
+		D6BBE0701CB458A60062F7E3 /* img_inputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_inputField.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D638F21C1CB3C4480050ED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638F2251CB3C4480050ED3A /* CoreGraphics.framework in Frameworks */,
+				D638F2271CB3C4480050ED3A /* UIKit.framework in Frameworks */,
+				D638F2231CB3C4480050ED3A /* Foundation.framework in Frameworks */,
+				A4D41379A1FEF8FFCF03AE55 /* libPods-RENTR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A647F090930F6CB112A0A6AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				988333C916644F3BDC88BCD6 /* Pods-RENTR.debug.xcconfig */,
+				C8E366CD1741B706916D435F /* Pods-RENTR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D638F2161CB3C4480050ED3A = {
+			isa = PBXGroup;
+			children = (
+				D638F2281CB3C4480050ED3A /* RENTR */,
+				D638F24A1CB3C4480050ED3A /* RENTRTests */,
+				D638F2211CB3C4480050ED3A /* Frameworks */,
+				D638F2201CB3C4480050ED3A /* Products */,
+				A647F090930F6CB112A0A6AD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D638F2201CB3C4480050ED3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D638F21F1CB3C4480050ED3A /* RENTR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D638F2211CB3C4480050ED3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D638F2221CB3C4480050ED3A /* Foundation.framework */,
+				D638F2241CB3C4480050ED3A /* CoreGraphics.framework */,
+				D638F2261CB3C4480050ED3A /* UIKit.framework */,
+				D638F2441CB3C4480050ED3A /* XCTest.framework */,
+				BFDA576E3E836E24FDFC6D15 /* libPods-RENTR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D638F2281CB3C4480050ED3A /* RENTR */ = {
+			isa = PBXGroup;
+			children = (
+				D658B7281CB4BDD5009A4685 /* 3rd */,
+				D6BBE05F1CB44D3A0062F7E3 /* Resources */,
+				D638F2311CB3C4480050ED3A /* AppDelegate.h */,
+				D638F2321CB3C4480050ED3A /* AppDelegate.m */,
+				D638F2341CB3C4480050ED3A /* Main_iPhone.storyboard */,
+				D638F2371CB3C4480050ED3A /* Main_iPad.storyboard */,
+				D658B7361CB4D4FE009A4685 /* Header.h */,
+				D658B7231CB4B91F009A4685 /* LoginViewController.h */,
+				D658B7241CB4B91F009A4685 /* LoginViewController.m */,
+				D658B71D1CB467A2009A4685 /* SignUpViewController.h */,
+				D658B71E1CB467A2009A4685 /* SignUpViewController.m */,
+				D658B7201CB46B05009A4685 /* HomeViewController.h */,
+				D658B7211CB46B05009A4685 /* HomeViewController.m */,
+				D638F23D1CB3C4480050ED3A /* Images.xcassets */,
+				D658B71B1CB463C4009A4685 /* Launch Screen.storyboard */,
+				D638F2291CB3C4480050ED3A /* Supporting Files */,
+			);
+			path = RENTR;
+			sourceTree = "<group>";
+		};
+		D638F2291CB3C4480050ED3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638F22A1CB3C4480050ED3A /* RENTR-Info.plist */,
+				D638F22B1CB3C4480050ED3A /* InfoPlist.strings */,
+				D638F22E1CB3C4480050ED3A /* main.m */,
+				D638F2301CB3C4480050ED3A /* RENTR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D638F24A1CB3C4480050ED3A /* RENTRTests */ = {
+			isa = PBXGroup;
+			children = (
+				D638F2501CB3C4480050ED3A /* RENTRTests.m */,
+				D638F24B1CB3C4480050ED3A /* Supporting Files */,
+			);
+			path = RENTRTests;
+			sourceTree = "<group>";
+		};
+		D638F24B1CB3C4480050ED3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638F24C1CB3C4480050ED3A /* RENTRTests-Info.plist */,
+				D638F24D1CB3C4480050ED3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D658B7281CB4BDD5009A4685 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				D658B7291CB4BDD5009A4685 /* TPKeyboardAvoiding */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		D658B7291CB4BDD5009A4685 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				D658B72A1CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.h */,
+				D658B72B1CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.m */,
+				D658B72C1CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.h */,
+				D658B72D1CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.m */,
+				D658B72E1CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.h */,
+				D658B72F1CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.m */,
+				D658B7301CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				D658B7311CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		D6BBE05F1CB44D3A0062F7E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6BBE0631CB4555E0062F7E3 /* Assets */,
+				D6BBE0601CB44D3A0062F7E3 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6BBE0601CB44D3A0062F7E3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D6BBE0611CB44D3A0062F7E3 /* Avenir.ttc */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D6BBE0631CB4555E0062F7E3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D658B7261CB4BCA9009A4685 /* btn_back.png */,
+				D6BBE0701CB458A60062F7E3 /* img_inputField.png */,
+				D6BBE0641CB4555E0062F7E3 /* barbtn_setting.png */,
+				D6BBE0651CB4555E0062F7E3 /* btn_call.png */,
+				D6BBE0661CB4555E0062F7E3 /* btn_comment.png */,
+				D6BBE0671CB4555E0062F7E3 /* btn_email.png */,
+				D6BBE0681CB4555E0062F7E3 /* img_mainProfile.png */,
+				D6BBE0691CB4555E0062F7E3 /* img_secondProfile.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D638F21E1CB3C4480050ED3A /* RENTR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D638F2541CB3C4480050ED3A /* Build configuration list for PBXNativeTarget "RENTR" */;
+			buildPhases = (
+				5C234F4CD2187395B8FBAC7E /* Check Pods Manifest.lock */,
+				D638F21B1CB3C4480050ED3A /* Sources */,
+				D638F21C1CB3C4480050ED3A /* Frameworks */,
+				D638F21D1CB3C4480050ED3A /* Resources */,
+				A8D93CDF23F03EFE55D0DA90 /* Embed Pods Frameworks */,
+				5EC594BB9A84D151A9F1F8F9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RENTR;
+			productName = RENTR;
+			productReference = D638F21F1CB3C4480050ED3A /* RENTR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D638F2171CB3C4480050ED3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kgh;
+			};
+			buildConfigurationList = D638F21A1CB3C4480050ED3A /* Build configuration list for PBXProject "RENTR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D638F2161CB3C4480050ED3A;
+			productRefGroup = D638F2201CB3C4480050ED3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D638F21E1CB3C4480050ED3A /* RENTR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D638F21D1CB3C4480050ED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BBE06C1CB4555E0062F7E3 /* btn_comment.png in Resources */,
+				D638F2391CB3C4480050ED3A /* Main_iPad.storyboard in Resources */,
+				D6BBE06E1CB4555E0062F7E3 /* img_mainProfile.png in Resources */,
+				D658B7271CB4BCA9009A4685 /* btn_back.png in Resources */,
+				D638F23E1CB3C4480050ED3A /* Images.xcassets in Resources */,
+				D658B71C1CB463C4009A4685 /* Launch Screen.storyboard in Resources */,
+				D638F2361CB3C4480050ED3A /* Main_iPhone.storyboard in Resources */,
+				D6BBE0711CB458A60062F7E3 /* img_inputField.png in Resources */,
+				D6BBE06F1CB4555E0062F7E3 /* img_secondProfile.png in Resources */,
+				D6BBE06D1CB4555E0062F7E3 /* btn_email.png in Resources */,
+				D6BBE06B1CB4555E0062F7E3 /* btn_call.png in Resources */,
+				D638F22D1CB3C4480050ED3A /* InfoPlist.strings in Resources */,
+				D6BBE0621CB44D3A0062F7E3 /* Avenir.ttc in Resources */,
+				D6BBE06A1CB4555E0062F7E3 /* barbtn_setting.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C234F4CD2187395B8FBAC7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC594BB9A84D151A9F1F8F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RENTR/Pods-RENTR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D93CDF23F03EFE55D0DA90 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RENTR/Pods-RENTR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D638F21B1CB3C4480050ED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D658B7331CB4BDD5009A4685 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				D658B7341CB4BDD5009A4685 /* TPKeyboardAvoidingTableView.m in Sources */,
+				D638F2331CB3C4480050ED3A /* AppDelegate.m in Sources */,
+				D658B71F1CB467A2009A4685 /* SignUpViewController.m in Sources */,
+				D658B7351CB4BDD5009A4685 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				D658B7221CB46B05009A4685 /* HomeViewController.m in Sources */,
+				D638F22F1CB3C4480050ED3A /* main.m in Sources */,
+				D658B7321CB4BDD5009A4685 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				D658B7251CB4B91F009A4685 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D638F22B1CB3C4480050ED3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638F22C1CB3C4480050ED3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D638F2341CB3C4480050ED3A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638F2351CB3C4480050ED3A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D638F2371CB3C4480050ED3A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638F2381CB3C4480050ED3A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D638F24D1CB3C4480050ED3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638F24E1CB3C4480050ED3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D638F2521CB3C4480050ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D638F2531CB3C4480050ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D638F2551CB3C4480050ED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988333C916644F3BDC88BCD6 /* Pods-RENTR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RENTR/RENTR-Prefix.pch";
+				INFOPLIST_FILE = "RENTR/RENTR-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karel.RENTR.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D638F2561CB3C4480050ED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E366CD1741B706916D435F /* Pods-RENTR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RENTR/RENTR-Prefix.pch";
+				INFOPLIST_FILE = "RENTR/RENTR-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karel.RENTR.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D638F21A1CB3C4480050ED3A /* Build configuration list for PBXProject "RENTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638F2521CB3C4480050ED3A /* Debug */,
+				D638F2531CB3C4480050ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D638F2541CB3C4480050ED3A /* Build configuration list for PBXNativeTarget "RENTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638F2551CB3C4480050ED3A /* Debug */,
+				D638F2561CB3C4480050ED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D638F2171CB3C4480050ED3A /* Project object */;
+}
